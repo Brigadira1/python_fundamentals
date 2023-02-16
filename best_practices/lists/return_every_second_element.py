@@ -1,4 +1,4 @@
-list = ["a", "b", "c", "d"] * 8
+list = ["a", "a_copy", "a_copy", "d"] * 8
 print(list)
 
 # Here is an example how we can produce a new list with every second element from the first

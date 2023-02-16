@@ -4,6 +4,7 @@ from urllib.request import urlopen
 def fetch_words(url):
     story = urlopen(url)
     story_words = []
+    story_words = []
     for line in story:
         line_words = line.decode("utf-8").split()
         temp = "https://sixty-north.com/c/t.txt"

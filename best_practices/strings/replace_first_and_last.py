@@ -10,7 +10,7 @@ def front_back(string):
     # How to access the last character of a string - last_char = str[-1: len(str)] or str[len(str) - 1]
     # The best way to access the last element of a string is str[-1]
 
-    new_string = string[-1: len(string)] + string[1:len(string) -1] + string[0]
+    new_string = string[-1] + string[1:len(string) -1] + string[0]
     return new_string
 
 

@@ -14,7 +14,7 @@ def check_numbers_in_lists (a, b):
             return False
     return True
 
-a = [1, 2, 3]
+a = [2, 2, 3]
 b = [2, 3, 4, 5, 9]
 
 if (len(a) <= len(b)):
