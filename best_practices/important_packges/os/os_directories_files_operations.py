@@ -17,11 +17,4 @@ if not os.path.exists("Test_1"):
 print(os.listdir())
 
 
-# Deletes a folder recursively if it exists
-def delete_folders_recursively(dir_path):
-    if len(os.listdir(dir_path)) == 0:
-        os.rmdir(dir_path)
-
-    else:
-
 

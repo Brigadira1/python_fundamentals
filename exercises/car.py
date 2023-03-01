@@ -24,18 +24,6 @@ class Car:
         self.odometer_reading += miles
 
 
-class ElectricCar(Car):
-
-    def __init__(self, make, model, year):
-        super().__init__(make, model, year)
-        self.battery_life = 40
-
-    def describe_battery(self):
-        return self.battery_life
-
-my_el_car = ElectricCar("Tesla", "M", "2018")
-print(my_el_car.get_descriptive_name())
-
 
 
 
