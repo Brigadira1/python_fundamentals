@@ -3,13 +3,16 @@ import random
 element = int(input("Enter an el to be found in the list - it should be an integer value: "))
 number_of_elements = 0
 
-list = []
+# for i in range(1000):
+#     j = random.randrange(0, 1000)
+#     list.append(j)
 
-for i in range(1000):
-    j = random.randrange(0, 1000)
-    list.append(j)
 
-list.sort()
+
+# list.sort()
+
+list = random.sample(range(0, 1000), 1000)
+
 
 
 def binary_search(el):
@@ -17,7 +20,7 @@ def binary_search(el):
     right = 999
     while left <= right:
         mid = int((right + left) / 2)
-        number_of_elements
+        global number_of_elements
         number_of_elements += 1
         if el == list[mid]:
             number_of_elements += 1
