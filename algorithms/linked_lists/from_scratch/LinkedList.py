@@ -5,11 +5,20 @@ class LinkedList:
     def __init__(self):
         self.head = None
 
+    def is_list_empty(self):
+        return self.head is None
+
+    def is_single_element(self):
+        if self.is_list_empty():
+            return False
+
+        return self.head.next is None
+
     def print_all_elements(self):
         current_node = self.head
         all_elements = []
 
-        if self.head is None:
+        if self.is_list_empty():
             return all_elements
 
         while current_node is not None:
@@ -20,7 +29,7 @@ class LinkedList:
         return all_elements
 
     def length(self):
-        if self.head is None:
+        if self.is_list_empty():
             return 0
 
         current_node = self.head
@@ -35,7 +44,7 @@ class LinkedList:
     def add_at_the_end(self, data):
         new_node = Node(data)
 
-        if self.head is None:
+        if self.is_list_empty():
             self.head = new_node
             return
 
@@ -49,7 +58,7 @@ class LinkedList:
     def add_in_the_beginning(self, data):
         new_node = Node(data)
 
-        if self.head is None:
+        if self.is_list_empty():
             self.head = new_node
             return
 
@@ -57,10 +66,10 @@ class LinkedList:
         self.head = new_node
 
     def delete_by_index(self, index):
-        if self.length() == 0 or index >= self.length():
+        if self.is_list_empty() or index >= self.length():
             return -1
 
-        if index == 0 and self.length() == 1:
+        if index == 0 and self.is_single_element():
             self.head = None
             return index
         elif index == 0:
@@ -92,7 +101,7 @@ class LinkedList:
         current_node = self.head
         element_index = 0
 
-        if self.head is None:
+        if self.is_list_empty():
             return -1
 
         while current_node is not None:
@@ -117,7 +126,7 @@ linked_list.add_at_the_end(6)
 linked_list.add_at_the_end(7)
 linked_list.add_at_the_end(98)
 
-print(linked_list.delete_by_index(8))
+print(linked_list.delete_by_index(0))
 print(linked_list.print_all_elements())
 # print(linked_list.length())
 # print(linked_list.search_by_data(7))
