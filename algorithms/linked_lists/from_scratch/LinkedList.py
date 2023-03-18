@@ -65,6 +65,16 @@ class LinkedList:
         new_node.next = self.head
         self.head = new_node
 
+    def add_after(self, previous_node, data):
+
+        if previous_node is None:
+            print("Previous node must exists in order to put data after it!")
+            return
+
+        new_node = Node(data)
+        new_node.next = previous_node.next
+        previous_node.next = new_node
+
     def delete_by_index(self, index):
         if self.is_list_empty() or index >= self.length():
             return -1
@@ -97,6 +107,32 @@ class LinkedList:
 
         return -1
 
+    def delete_by_data(self, data):
+        if self.is_list_empty():
+            print("Nothing to delete - the list is empty!")
+            return
+
+        if self.is_single_element():
+            if self.head.data == data:
+                self.head = None
+                return
+
+        current_node = self.head
+        previous_node = current_node
+
+        if current_node.data == data:
+            self.head = current_node.next
+            return
+        current_node = current_node.next
+
+        while current_node is not None:
+            if current_node.data == data:
+                previous_node.next = current_node.next
+                return
+
+            previous_node = current_node
+            current_node = current_node.next
+
     def search_by_data(self, data):
         current_node = self.head
         element_index = 0
@@ -113,7 +149,6 @@ class LinkedList:
         return -1
 
 
-
 linked_list = LinkedList()
 
 linked_list.add_in_the_beginning(108)
@@ -127,7 +162,17 @@ linked_list.add_at_the_end(7)
 linked_list.add_at_the_end(98)
 
 print(linked_list.delete_by_index(0))
+linked_list.delete_by_data(3)
+linked_list.delete_by_data(98)
+linked_list.delete_by_data(1)
+linked_list.delete_by_data(2)
+
+linked_list.delete_by_data(4)
+linked_list.delete_by_data(5)
+linked_list.delete_by_data(6)
+linked_list.delete_by_data(7)
+linked_list.delete_by_data(3)
 print(linked_list.print_all_elements())
+
 # print(linked_list.length())
 # print(linked_list.search_by_data(7))
-
