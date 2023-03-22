@@ -92,7 +92,10 @@ class BinaryTree:
         if node is None:
             return -1
 
-        return max(self.tree_height(node.left), self.tree_height(node.right)) + 1
+        left_height = self.tree_height(node.left)
+        right_height = self.tree_height(node.right)
+
+        return max(left_height, right_height) + 1
 
     def max(self, a, b):
 
