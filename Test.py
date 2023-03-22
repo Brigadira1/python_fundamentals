@@ -1,32 +1,15 @@
-def bubble_sort(list):
+n = int(input("Enter n: "))
 
-    for i in range(0, len(list)):
-        sorted = True
-        for j in range(0, len(list) - i - 1):
-            if list[j] > list[j + 1]:
-                list[j + 1], list[j] = list[j], list[j+1]
-                sorted = False
+for i in range(0, n):
+    for j in range(i + 1):
+        print(" ", end= " ")
 
-        if sorted:
-            return list
+    for k in range(i, n - 1):
+        print("*", end=" ")
 
-    return list
-
-# list=[1,2,8,4,5,6,7,2,3,4,5,99, 100, 45]
-# print(bubble_sort(list))
+    for l in range(i, n):
+        print("*", end=" ")
 
 
-def insertion_sort(list):
-    for i in range(1, len(list)):
-        j = i
+    print()
 
-        while list[j - 1] > list[j] and j > 0:
-            list[j], list[j-1] = list[j - 1], list[j]
-            j -= 1
-
-    return list
-
-
-
-list=[98, 34, 23, 29, 4, 5, 46, 768, 0,]
-print(insertion_sort(list))
