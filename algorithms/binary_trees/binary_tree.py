@@ -32,9 +32,6 @@ class BinaryTree:
                 self.current_node = self.current_node.right
                 self.insert_node(node)
 
-        else:
-            print("Invalid value - it already exists. Two node with the same values are not allowed in binary trees!")
-
     def inorder_printing(self, node):
 
         if node is None:
