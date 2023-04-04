@@ -1,15 +1,24 @@
-n = int(input("Enter n: "))
+import string
 
-for i in range(0, n):
-    for j in range(i + 1):
-        print(" ", end= " ")
+letters = string.ascii_letters
+small_letters = string.ascii_lowercase
+caps_letters = string.ascii_uppercase
+digits = string.digits
+hex_digits = string.hexdigits
+oct_digits = string.octdigits
 
-    for k in range(i, n - 1):
-        print("*", end=" ")
+print(letters)
+print(small_letters)
+print(caps_letters)
+print(hex_digits)
+print(oct_digits)
+print(digits)
 
-    for l in range(i, n):
-        print("*", end=" ")
+print(type(letters))
+print(dir(string))
 
 
-    print()
+
+
+
 
