@@ -1,6 +1,5 @@
 import datetime as dt
 import pytz
-
 # Examples of the date object in datetime package
 
 current_date = dt.date.today();
