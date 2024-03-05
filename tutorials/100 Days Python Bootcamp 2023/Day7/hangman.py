@@ -1,11 +1,5 @@
 import random
-
-words_list: tuple[str] = ("abbreviation", "celebration", "concentrate", "reproductive")
-current_word: str = random.choice(words_list)
-print(*current_word)
-guess_list: list = [0] * len(current_word)
-number_of_lives = 7
-
+from pyfiglet import figlet_format
 
 def is_word_guessed(g_list: list) -> bool:
     if 0 in g_list:
@@ -14,7 +8,7 @@ def is_word_guessed(g_list: list) -> bool:
         return True
 
 
-def print_word() -> None:
+def print_word(guess_list) -> None:
     for let in guess_list:
         if let == 0:
             print("_", end=" ")
@@ -23,6 +17,12 @@ def print_word() -> None:
 
 
 def main():
+    print(figlet_format("Hangman", font="big"))
+    words_list: tuple[str] = ("abbreviation", "celebration", "concentrate", "reproductive")
+    current_word: str = random.choice(words_list)
+    # print(*current_word)
+    guess_list: list = [0] * len(current_word)
+    number_of_lives = 7
     while True:
         letter = input("Guess one letter: ")
         if len(letter) != 1:
@@ -48,7 +48,7 @@ def main():
             break
         else:
             print(f"You've correctly guessed the letter '{letter}'")
-            print_word()
+            print_word(guess_list)
 
 
 if __name__ == "__main__":
