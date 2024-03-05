@@ -1,2 +1,1 @@
-list = [0] * 5
-print(list)
+print(ord('a'))
