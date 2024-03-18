@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../Artifivial Intelligence/.idea/Artifivial Intelligence.iml" filepath="$PROJECT_DIR$/../Artifivial Intelligence/.idea/Artifivial Intelligence.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/My Python Journey.iml" filepath="$PROJECT_DIR$/.idea/My Python Journey.iml" />
     </modules>
   </component>
