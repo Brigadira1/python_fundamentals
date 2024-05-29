@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../Artifivial Intelligence/.idea/Artifivial Intelligence.iml" filepath="$PROJECT_DIR$/../Artifivial Intelligence/.idea/Artifivial Intelligence.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Artificial Intelligence/.idea/Artificial Intelligence.iml" filepath="$PROJECT_DIR$/../Artificial Intelligence/.idea/Artificial Intelligence.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/My Python Journey.iml" filepath="$PROJECT_DIR$/.idea/My Python Journey.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../SAP/genAI-InhouseAdoption/genAI-InhouseAdoption/.idea/genAI-InhouseAdoption.iml" filepath="$PROJECT_DIR$/../SAP/genAI-InhouseAdoption/genAI-InhouseAdoption/.idea/genAI-InhouseAdoption.iml" />
     </modules>
   </component>
 </project>
