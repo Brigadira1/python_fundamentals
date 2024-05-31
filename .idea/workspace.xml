@@ -7,11 +7,10 @@
     <list default="true" id="c93585ea-44c4-4cc4-9d6d-daaf1af0b816" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/../Artificial Intelligence/langchain/langchain_helper.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Artificial Intelligence/langchain/langchain_helper.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/My Python Journey.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/My Python Journey.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercises/Teeeeeeeeeeest.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/Teeeeeeeeeeest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +25,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../Artificial Intelligence" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -42,49 +41,50 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.CoffeeMachine.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Deck.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Hand.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Teeeeeeeeeeest.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Tests.executor&quot;: &quot;Run&quot;,
-    &quot;Python.add_even_numbers.executor&quot;: &quot;Run&quot;,
-    &quot;Python.add_two_digits_number.executor&quot;: &quot;Run&quot;,
-    &quot;Python.buy_coffee.executor&quot;: &quot;Run&quot;,
-    &quot;Python.caesar_cipher.executor&quot;: &quot;Run&quot;,
-    &quot;Python.car.executor&quot;: &quot;Run&quot;,
-    &quot;Python.colorful_circles (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.days_in_month.executor&quot;: &quot;Run&quot;,
-    &quot;Python.delete_string_character.executor&quot;: &quot;Run&quot;,
-    &quot;Python.eight_figures_drawing (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.etch_sketch.executor&quot;: &quot;Run&quot;,
-    &quot;Python.fizz_buzz.executor&quot;: &quot;Run&quot;,
-    &quot;Python.food.executor&quot;: &quot;Run&quot;,
-    &quot;Python.guess_number.executor&quot;: &quot;Run&quot;,
-    &quot;Python.hangman.executor&quot;: &quot;Run&quot;,
-    &quot;Python.langchain_helper.executor&quot;: &quot;Run&quot;,
-    &quot;Python.langchain_helper_tester.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.main (2).executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.random_drawing.executor&quot;: &quot;Run&quot;,
-    &quot;Python.scoreboard.executor&quot;: &quot;Run&quot;,
-    &quot;Python.snake.executor&quot;: &quot;Run&quot;,
-    &quot;Python.turtle_exercises.executor&quot;: &quot;Run&quot;,
-    &quot;Python.turtle_experiment.executor&quot;: &quot;Run&quot;,
-    &quot;Python.turtle_experiments.executor&quot;: &quot;Run&quot;,
-    &quot;Python.turtle_race.executor&quot;: &quot;Run&quot;,
-    &quot;Python.update_string_character.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Python/Projects/SAP/genAI-InhouseAdoption&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
-    &quot;settings.editor.splitter.proportion&quot;: &quot;0.2099898&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.CoffeeMachine.executor": "Run",
+    "Python.Deck.executor": "Run",
+    "Python.Hand.executor": "Run",
+    "Python.Teeeeeeeeeeest.executor": "Run",
+    "Python.Tests.executor": "Run",
+    "Python.add_even_numbers.executor": "Run",
+    "Python.add_two_digits_number.executor": "Run",
+    "Python.buy_coffee.executor": "Run",
+    "Python.caesar_cipher.executor": "Run",
+    "Python.car.executor": "Run",
+    "Python.colorful_circles (1).executor": "Run",
+    "Python.days_in_month.executor": "Run",
+    "Python.delete_string_character.executor": "Run",
+    "Python.eight_figures_drawing (1).executor": "Run",
+    "Python.etch_sketch.executor": "Run",
+    "Python.find_file_in_directories.executor": "Run",
+    "Python.fizz_buzz.executor": "Run",
+    "Python.food.executor": "Run",
+    "Python.guess_number.executor": "Run",
+    "Python.hangman.executor": "Run",
+    "Python.langchain_helper.executor": "Run",
+    "Python.langchain_helper_tester.executor": "Run",
+    "Python.main (1).executor": "Run",
+    "Python.main (2).executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.random_drawing.executor": "Run",
+    "Python.scoreboard.executor": "Run",
+    "Python.snake.executor": "Run",
+    "Python.turtle_exercises.executor": "Run",
+    "Python.turtle_experiment.executor": "Run",
+    "Python.turtle_experiments.executor": "Run",
+    "Python.turtle_race.executor": "Run",
+    "Python.update_string_character.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Python/Projects/SAP",
+    "settings.editor.selected.configurable": "preferences.general",
+    "settings.editor.splitter.proportion": "0.2099898"
   }
-}</component>
-  <component name="RunManager" selected="Python.langchain_helper_tester">
+}]]></component>
+  <component name="RunManager" selected="Python.Tests">
     <configuration name="Teeeeeeeeeeest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="My Python Journey" />
       <option name="ENV_FILES" value="" />
@@ -107,7 +107,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="car" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Tests" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="My Python Journey" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -116,11 +116,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exercises" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exercises/car.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tests.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -143,6 +143,28 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/best_practices/strings/delete_string_character.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="find_file_in_directories" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="My Python Journey" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/recipies/filesystem" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/recipies/filesystem/find_file_in_directories.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -195,35 +217,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Artificial Intelligence" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Artificial Intelligence/langchain" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Artificial Intelligence/langchain/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Tests" />
+        <item itemvalue="Python.find_file_in_directories" />
         <item itemvalue="Python.langchain_helper_tester" />
         <item itemvalue="Python.langchain_helper" />
         <item itemvalue="Python.Teeeeeeeeeeest" />
-        <item itemvalue="Python.main (2)" />
-        <item itemvalue="Python.car" />
       </list>
     </recent_temporary>
   </component>
