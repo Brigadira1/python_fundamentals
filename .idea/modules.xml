@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/../Artificial Intelligence/.idea/Artificial Intelligence.iml" filepath="$PROJECT_DIR$/../Artificial Intelligence/.idea/Artificial Intelligence.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/My Python Journey.iml" filepath="$PROJECT_DIR$/.idea/My Python Journey.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../SAP/.idea/SAP.iml" filepath="$PROJECT_DIR$/../SAP/.idea/SAP.iml" />
       <module fileurl="file://$PROJECT_DIR$/../SAP/genAI-InhouseAdoption/genAI-InhouseAdoption/.idea/genAI-InhouseAdoption.iml" filepath="$PROJECT_DIR$/../SAP/genAI-InhouseAdoption/genAI-InhouseAdoption/.idea/genAI-InhouseAdoption.iml" />
     </modules>
   </component>
