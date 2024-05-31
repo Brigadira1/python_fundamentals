@@ -6,11 +6,37 @@
   <component name="ChangeListManager">
     <list default="true" id="c93585ea-44c4-4cc4-9d6d-daaf1af0b816" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/../Artificial Intelligence/langchain/langchain_helper.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Artificial Intelligence/langchain/langchain_helper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/My Python Journey.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/My Python Journey.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/best_practices/advanced/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/best_practices/context_managers/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/best_practices/advanced/context_managers/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/best_practices/decorators/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/best_practices/advanced/context_managers/class_context_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/best_practices/context_managers/class_context_manager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/best_practices/advanced/context_managers/delmeeeeeeeeeeeeee.txt" beforeDir="false" afterPath="$PROJECT_DIR$/best_practices/context_managers/delmeeeeeeeeeeeeee.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/best_practices/advanced/context_managers/function_context_managers.py" beforeDir="false" afterPath="$PROJECT_DIR$/best_practices/context_managers/function_context_managers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/best_practices/advanced/decorators/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/best_practices/generators/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/best_practices/advanced/decorators/simple_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/best_practices/decorators/simple_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/best_practices/advanced/decorators/simple_example_with_decorator.py" beforeDir="false" afterPath="$PROJECT_DIR$/best_practices/decorators/simple_example_with_decorator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/best_practices/advanced/iterator_generator/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/best_practices/memory/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/best_practices/advanced/iterator_generator/iterator_generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/best_practices/generators/iterator_generator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/best_practices/advanced/memory/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/best_practices/standard_libraries/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/best_practices/advanced/memory/strings.py" beforeDir="false" afterPath="$PROJECT_DIR$/best_practices/memory/strings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/best_practices/important_packges/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/best_practices/standard_libraries/date/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/best_practices/important_packges/date/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/best_practices/standard_libraries/os/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/best_practices/important_packges/date/date_time.py" beforeDir="false" afterPath="$PROJECT_DIR$/best_practices/standard_libraries/date/date_time.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/best_practices/important_packges/os/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/best_practices/standard_libraries/pathlib/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/best_practices/important_packges/os/os_directories_files_operations.py" beforeDir="false" afterPath="$PROJECT_DIR$/best_practices/standard_libraries/os/os_directories_files_operations.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/best_practices/important_packges/pathlib/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/best_practices/standard_libraries/random/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/best_practices/important_packges/pathlib/examples.py" beforeDir="false" afterPath="$PROJECT_DIR$/best_practices/standard_libraries/pathlib/examples.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/best_practices/important_packges/pathlib/myfile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/best_practices/standard_libraries/pathlib/myfile.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/best_practices/important_packges/pathlib/new-file-1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/best_practices/standard_libraries/pathlib/new-file-1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/best_practices/important_packges/pathlib/new-file-2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/best_practices/standard_libraries/pathlib/new-file-2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/best_practices/important_packges/pathlib/new-file-3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/best_practices/standard_libraries/pathlib/new-file-3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/best_practices/important_packges/pathlib/new-file-4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/best_practices/standard_libraries/pathlib/new-file-4.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/best_practices/important_packges/pathlib/new-file-5.txt" beforeDir="false" afterPath="$PROJECT_DIR$/best_practices/standard_libraries/pathlib/new-file-5.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/best_practices/important_packges/pathlib/website/blog/my_blog_post.txt" beforeDir="false" afterPath="$PROJECT_DIR$/best_practices/standard_libraries/pathlib/website/blog/my_blog_post.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/best_practices/important_packges/random/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/best_practices/standard_libraries/sys/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/best_practices/important_packges/random/random_examples.py" beforeDir="false" afterPath="$PROJECT_DIR$/best_practices/standard_libraries/random/random_examples.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/best_practices/important_packges/sys/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/best_practices/important_packges/sys/sys_examples.py" beforeDir="false" afterPath="$PROJECT_DIR$/best_practices/standard_libraries/sys/sys_examples.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
