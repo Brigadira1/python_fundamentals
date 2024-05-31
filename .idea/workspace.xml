@@ -7,36 +7,7 @@
     <list default="true" id="c93585ea-44c4-4cc4-9d6d-daaf1af0b816" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/../Artificial Intelligence/langchain/langchain_helper.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Artificial Intelligence/langchain/langchain_helper.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/best_practices/advanced/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/best_practices/context_managers/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/best_practices/advanced/context_managers/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/best_practices/decorators/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/best_practices/advanced/context_managers/class_context_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/best_practices/context_managers/class_context_manager.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/best_practices/advanced/context_managers/delmeeeeeeeeeeeeee.txt" beforeDir="false" afterPath="$PROJECT_DIR$/best_practices/context_managers/delmeeeeeeeeeeeeee.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/best_practices/advanced/context_managers/function_context_managers.py" beforeDir="false" afterPath="$PROJECT_DIR$/best_practices/context_managers/function_context_managers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/best_practices/advanced/decorators/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/best_practices/generators/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/best_practices/advanced/decorators/simple_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/best_practices/decorators/simple_example.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/best_practices/advanced/decorators/simple_example_with_decorator.py" beforeDir="false" afterPath="$PROJECT_DIR$/best_practices/decorators/simple_example_with_decorator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/best_practices/advanced/iterator_generator/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/best_practices/memory/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/best_practices/advanced/iterator_generator/iterator_generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/best_practices/generators/iterator_generator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/best_practices/advanced/memory/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/best_practices/standard_libraries/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/best_practices/advanced/memory/strings.py" beforeDir="false" afterPath="$PROJECT_DIR$/best_practices/memory/strings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/best_practices/important_packges/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/best_practices/standard_libraries/date/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/best_practices/important_packges/date/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/best_practices/standard_libraries/os/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/best_practices/important_packges/date/date_time.py" beforeDir="false" afterPath="$PROJECT_DIR$/best_practices/standard_libraries/date/date_time.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/best_practices/important_packges/os/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/best_practices/standard_libraries/pathlib/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/best_practices/important_packges/os/os_directories_files_operations.py" beforeDir="false" afterPath="$PROJECT_DIR$/best_practices/standard_libraries/os/os_directories_files_operations.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/best_practices/important_packges/pathlib/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/best_practices/standard_libraries/random/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/best_practices/important_packges/pathlib/examples.py" beforeDir="false" afterPath="$PROJECT_DIR$/best_practices/standard_libraries/pathlib/examples.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/best_practices/important_packges/pathlib/myfile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/best_practices/standard_libraries/pathlib/myfile.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/best_practices/important_packges/pathlib/new-file-1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/best_practices/standard_libraries/pathlib/new-file-1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/best_practices/important_packges/pathlib/new-file-2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/best_practices/standard_libraries/pathlib/new-file-2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/best_practices/important_packges/pathlib/new-file-3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/best_practices/standard_libraries/pathlib/new-file-3.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/best_practices/important_packges/pathlib/new-file-4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/best_practices/standard_libraries/pathlib/new-file-4.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/best_practices/important_packges/pathlib/new-file-5.txt" beforeDir="false" afterPath="$PROJECT_DIR$/best_practices/standard_libraries/pathlib/new-file-5.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/best_practices/important_packges/pathlib/website/blog/my_blog_post.txt" beforeDir="false" afterPath="$PROJECT_DIR$/best_practices/standard_libraries/pathlib/website/blog/my_blog_post.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/best_practices/important_packges/random/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/best_practices/standard_libraries/sys/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/best_practices/important_packges/random/random_examples.py" beforeDir="false" afterPath="$PROJECT_DIR$/best_practices/standard_libraries/random/random_examples.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/best_practices/important_packges/sys/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/best_practices/important_packges/sys/sys_examples.py" beforeDir="false" afterPath="$PROJECT_DIR$/best_practices/standard_libraries/sys/sys_examples.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/best_practices/generators/iterator_generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/best_practices/generators/file_parsing_with_generator.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,6 +55,7 @@
     "Python.delete_string_character.executor": "Run",
     "Python.eight_figures_drawing (1).executor": "Run",
     "Python.etch_sketch.executor": "Run",
+    "Python.file_parsing_with_generator.executor": "Debug",
     "Python.find_file_in_directories.executor": "Run",
     "Python.fizz_buzz.executor": "Run",
     "Python.food.executor": "Run",
@@ -105,34 +77,20 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Python/Projects/SAP",
+    "last_opened_file_path": "C:/Python/Projects/My Python Journey/best_practices/generators",
     "settings.editor.selected.configurable": "preferences.general",
     "settings.editor.splitter.proportion": "0.2099898"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.Tests">
-    <configuration name="Teeeeeeeeeeest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="My Python Journey" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exercises" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exercises/Teeeeeeeeeeest.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Python\Projects\My Python Journey\best_practices\generators" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Python\Projects\My Python Journey\best_practices" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.file_parsing_with_generator">
     <configuration name="Tests" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="My Python Journey" />
       <option name="ENV_FILES" value="" />
@@ -169,6 +127,28 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/best_practices/strings/delete_string_character.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="file_parsing_with_generator" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="My Python Journey" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/best_practices/generators" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/best_practices/generators/file_parsing_with_generator.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -245,11 +225,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.file_parsing_with_generator" />
         <item itemvalue="Python.Tests" />
         <item itemvalue="Python.find_file_in_directories" />
         <item itemvalue="Python.langchain_helper_tester" />
         <item itemvalue="Python.langchain_helper" />
-        <item itemvalue="Python.Teeeeeeeeeeest" />
       </list>
     </recent_temporary>
   </component>
