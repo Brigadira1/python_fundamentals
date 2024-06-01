@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c93585ea-44c4-4cc4-9d6d-daaf1af0b816" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/../Artificial Intelligence/langchain/langchain_helper.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Artificial Intelligence/langchain/langchain_helper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/best_practices/generators/iterator_generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/best_practices/generators/file_parsing_with_generator.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +53,7 @@
     "Python.delete_string_character.executor": "Run",
     "Python.eight_figures_drawing (1).executor": "Run",
     "Python.etch_sketch.executor": "Run",
-    "Python.file_parsing_with_generator.executor": "Debug",
+    "Python.file_parsing_with_generator.executor": "Run",
     "Python.find_file_in_directories.executor": "Run",
     "Python.fizz_buzz.executor": "Run",
     "Python.food.executor": "Run",
