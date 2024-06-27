@@ -6,8 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="c93585ea-44c4-4cc4-9d6d-daaf1af0b816" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/../Artificial Intelligence/langchain/langchain_helper.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Artificial Intelligence/langchain/langchain_helper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithms/sorting_algorithms/bubble_sort.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/sorting_algorithms/bubble_sort.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorials/object_oriented_programming_mateo_prigl/classes.py" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials/object_oriented_programming_mateo_prigl/classes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorials/software_designer_mindset/classes/car_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials/software_designer_mindset/classes/car_example.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,57 +45,75 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.CoffeeMachine.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Deck.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Hand.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Teeeeeeeeeeest.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Tests.executor&quot;: &quot;Run&quot;,
-    &quot;Python.add_even_numbers.executor&quot;: &quot;Run&quot;,
-    &quot;Python.add_two_digits_number.executor&quot;: &quot;Run&quot;,
-    &quot;Python.buy_coffee.executor&quot;: &quot;Run&quot;,
-    &quot;Python.caesar_cipher.executor&quot;: &quot;Run&quot;,
-    &quot;Python.car.executor&quot;: &quot;Run&quot;,
-    &quot;Python.classes.executor&quot;: &quot;Run&quot;,
-    &quot;Python.colorful_circles (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.days_in_month.executor&quot;: &quot;Run&quot;,
-    &quot;Python.delete_string_character.executor&quot;: &quot;Run&quot;,
-    &quot;Python.directory_travetsing_pathlib.executor&quot;: &quot;Run&quot;,
-    &quot;Python.eight_figures_drawing (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.etch_sketch.executor&quot;: &quot;Run&quot;,
-    &quot;Python.file_parsing_with_generator.executor&quot;: &quot;Run&quot;,
-    &quot;Python.find_file_in_directories.executor&quot;: &quot;Run&quot;,
-    &quot;Python.fizz_buzz.executor&quot;: &quot;Run&quot;,
-    &quot;Python.food.executor&quot;: &quot;Run&quot;,
-    &quot;Python.guess_number.executor&quot;: &quot;Run&quot;,
-    &quot;Python.hangman.executor&quot;: &quot;Run&quot;,
-    &quot;Python.inheritance.executor&quot;: &quot;Run&quot;,
-    &quot;Python.langchain_helper.executor&quot;: &quot;Run&quot;,
-    &quot;Python.langchain_helper_tester.executor&quot;: &quot;Run&quot;,
-    &quot;Python.listing_directory.executor&quot;: &quot;Run&quot;,
-    &quot;Python.listing_directory_pathlib.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.main (2).executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.pattern_matching_fnmatch.executor&quot;: &quot;Run&quot;,
-    &quot;Python.pattern_matching_glob.executor&quot;: &quot;Run&quot;,
-    &quot;Python.random_drawing.executor&quot;: &quot;Run&quot;,
-    &quot;Python.scoreboard.executor&quot;: &quot;Run&quot;,
-    &quot;Python.snake.executor&quot;: &quot;Run&quot;,
-    &quot;Python.turtle_exercises.executor&quot;: &quot;Run&quot;,
-    &quot;Python.turtle_experiment.executor&quot;: &quot;Run&quot;,
-    &quot;Python.turtle_experiments.executor&quot;: &quot;Run&quot;,
-    &quot;Python.turtle_race.executor&quot;: &quot;Run&quot;,
-    &quot;Python.update_string_character.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Python/Projects/My Python Journey/tutorials/working_with_files_eduardo_freitas/files/subfolder/test&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;settings.editor.splitter.proportion&quot;: &quot;0.2099898&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.AsusGpu.executor": "Run",
+    "Python.CoffeeMachine.executor": "Run",
+    "Python.Deck.executor": "Run",
+    "Python.Gpu.executor": "Run",
+    "Python.Hand.executor": "Run",
+    "Python.Teeeeeeeeeeest.executor": "Run",
+    "Python.Tests.executor": "Run",
+    "Python.add_even_numbers.executor": "Run",
+    "Python.add_two_digits_number.executor": "Run",
+    "Python.bubble_sort_2.executor": "Run",
+    "Python.buy_coffee.executor": "Run",
+    "Python.caesar_cipher.executor": "Run",
+    "Python.calculator.executor": "Run",
+    "Python.car.executor": "Run",
+    "Python.classes.executor": "Run",
+    "Python.colorful_circles (1).executor": "Run",
+    "Python.customer.executor": "Run",
+    "Python.days_in_month.executor": "Run",
+    "Python.decorators_with_parameters.executor": "Run",
+    "Python.delete_string_character.executor": "Run",
+    "Python.directory_travetsing_pathlib.executor": "Run",
+    "Python.eight_figures_drawing (1).executor": "Run",
+    "Python.etch_sketch.executor": "Run",
+    "Python.file_parsing_with_generator.executor": "Run",
+    "Python.find_file_in_directories.executor": "Run",
+    "Python.first_class_citizens.executor": "Debug",
+    "Python.fizz_buzz.executor": "Run",
+    "Python.food.executor": "Run",
+    "Python.guess_number.executor": "Run",
+    "Python.hangman.executor": "Run",
+    "Python.inheritance.executor": "Run",
+    "Python.langchain_helper.executor": "Run",
+    "Python.langchain_helper_tester.executor": "Run",
+    "Python.listing_directory.executor": "Run",
+    "Python.listing_directory_pathlib.executor": "Run",
+    "Python.logging_decorator.executor": "Run",
+    "Python.main (1).executor": "Run",
+    "Python.main (2).executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.multiple_decorators.executor": "Debug",
+    "Python.order.executor": "Run",
+    "Python.order_item.executor": "Run",
+    "Python.pattern_matching_fnmatch.executor": "Run",
+    "Python.pattern_matching_glob.executor": "Run",
+    "Python.random_drawing.executor": "Run",
+    "Python.scoreboard.executor": "Run",
+    "Python.simple_decorator.executor": "Run",
+    "Python.simple_decorator_2.executor": "Run",
+    "Python.simple_decorator_3.executor": "Run",
+    "Python.snake.executor": "Run",
+    "Python.stacled_decorators.executor": "Run",
+    "Python.time_decorator.executor": "Run",
+    "Python.turtle_exercises.executor": "Run",
+    "Python.turtle_experiment.executor": "Run",
+    "Python.turtle_experiments.executor": "Run",
+    "Python.turtle_race.executor": "Run",
+    "Python.update_string_character.executor": "Run",
+    "Python.with_factory.executor": "Run",
+    "Python.without_factory.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/I024158/Downloads/ColorIde-2.3.jar",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Console Colors",
+    "settings.editor.splitter.proportion": "0.2099898"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Python\Projects\My Python Journey\tutorials\working_with_files_eduardo_freitas\files\subfolder\test" />
@@ -101,7 +123,29 @@
       <recent name="C:\Python\Projects\My Python Journey\best_practices" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.directory_travetsing_pathlib">
+  <component name="RunManager" selected="Python.asus_gpu">
+    <configuration name="asus_gpu" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="My Python Journey" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/design_patterns/factory/geekific/factory_method" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Python\Projects\My Python Journey\design_patterns\factory\geekific\factory_method\asus_gpu.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="delete_string_character" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="My Python Journey" />
       <option name="ENV_FILES" value="" />
@@ -124,7 +168,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="directory_travetsing_pathlib" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="gpu" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="My Python Journey" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -133,11 +177,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tutorials/working_with_files_eduardo_freitas" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/design_patterns/factory/geekific/factory_method" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tutorials/working_with_files_eduardo_freitas/directory_travetsing_pathlib.py" />
+      <option name="SCRIPT_NAME" value="C:\Python\Projects\My Python Journey\design_patterns\factory\geekific\factory_method\gpu.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -146,7 +190,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="listing_directory" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="stacked_decorators" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="My Python Journey" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -155,11 +199,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tutorials/working_with_files_eduardo_freitas" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tutorials/python_decorators_mateo_prigl" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tutorials/working_with_files_eduardo_freitas/listing_directory.py" />
+      <option name="SCRIPT_NAME" value="C:\Python\Projects\My Python Journey\tutorials\python_decorators_mateo_prigl\stacked_decorators.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -168,7 +212,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="listing_directory_pathlib" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="with_factory" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="My Python Journey" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -177,11 +221,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tutorials/working_with_files_eduardo_freitas" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/design_patterns/factory/arjan/without_factory" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tutorials/working_with_files_eduardo_freitas/listing_directory_pathlib.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/design_patterns/factory/arjan/without_factory/with_factory.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -190,7 +234,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pattern_matching_fnmatch" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="without_factory" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="My Python Journey" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -199,33 +243,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tutorials/working_with_files_eduardo_freitas" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/design_patterns/factory/arjan/without_factory" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tutorials/working_with_files_eduardo_freitas/pattern_matching_fnmatch.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pattern_matching_glob" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="My Python Journey" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tutorials/working_with_files_eduardo_freitas" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tutorials/working_with_files_eduardo_freitas/pattern_matching_glob.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/design_patterns/factory/arjan/without_factory/without_factory.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -236,22 +258,25 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.pattern_matching_glob" />
-        <item itemvalue="Python.pattern_matching_fnmatch" />
-        <item itemvalue="Python.listing_directory_pathlib" />
-        <item itemvalue="Python.listing_directory" />
-        <item itemvalue="Python.directory_travetsing_pathlib" />
+        <item itemvalue="Python.asus_gpu" />
+        <item itemvalue="Python.gpu" />
+        <item itemvalue="Python.with_factory" />
+        <item itemvalue="Python.without_factory" />
+        <item itemvalue="Python.stacked_decorators" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-5a2391486177-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.13763.11" />
+        <option value="bundled-python-sdk-eebebe6c2be4-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.15325.20" />
       </set>
     </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\I024158\AppData\Roaming\Subversion</configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="c93585ea-44c4-4cc4-9d6d-daaf1af0b816" name="Changes" comment="" />
@@ -261,5 +286,16 @@
       <updated>1708529923077</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

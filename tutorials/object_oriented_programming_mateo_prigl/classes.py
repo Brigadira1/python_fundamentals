@@ -9,16 +9,21 @@ class Employee:
         self.salary = self.salary + self.salary * (percent / 100)
 
     def __str__(self):
-        return (f"{self.name} is {self.age} years old. Employee is a "
-                f"{self.position} with the salary of ${self.salary}")
+        return (
+            f"{self.name} is {self.age} years old. Employee is a "
+            f"{self.position} with the salary of ${self.salary}"
+        )
 
     def __repr__(self):
-        return f'''Employee("{self.name}", {self.age}, "{self.position}", {self.salary})'''
+        return (
+            f"""Employee("{self.name}", {self.age}, "{self.position}", {self.salary})"""
+        )
 
     @property
     def name(self):
         return self._name
 
+    # setter for the name attribute
     @name.setter
     def name(self, name):
         if type(name) is not str:
@@ -32,6 +37,7 @@ class Employee:
     @salary.setter
     def salary(self, salary):
         self._salary = salary
+
     @property
     def annual_salary(self):
         return self.salary * 12
