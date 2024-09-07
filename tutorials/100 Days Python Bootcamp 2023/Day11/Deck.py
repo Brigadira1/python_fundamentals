@@ -1,4 +1,5 @@
 import random
+
 from Card import Card
 from Hand import Hand
 
@@ -32,7 +33,7 @@ class Deck:
 
     def deal(self, number):
         cards_dealt = []
-        for card in range(number):
+        for _ in range(number):
             if len(self.cards_deck) > 0:
                 current_card = self.cards_deck.pop()
                 cards_dealt.append(current_card)

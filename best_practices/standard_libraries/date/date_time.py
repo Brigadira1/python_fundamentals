@@ -1,8 +1,10 @@
 import datetime as dt
+
 import pytz
+
 # Examples of the date object in datetime package
 
-current_date = dt.date.today();
+current_date = dt.date.today()
 print(current_date)
 print(f"Current year: {current_date.year}")
 print(f"Current day: {current_date.day}")
@@ -32,7 +34,7 @@ print(current_datetime)
 curr_date = dt.datetime.now()
 new_year = dt.datetime(2024, 1, 1)
 
-delta = new_year - curr_date;
+delta = new_year - curr_date
 print(f"Time remaining until 2024: {delta}")
 print(type(delta))
 print("\n")
@@ -50,8 +52,3 @@ print(f"The local time in New York is: {datetime_NY}")
 tz_London = pytz.timezone("Europe/London")
 time_London = dt.datetime.now(tz_London)
 print(f"Local time in London is: {time_London}")
-
-
-
-
-
