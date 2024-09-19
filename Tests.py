@@ -1,18 +1,21 @@
-def test_function(*args, **kwargs):
-    print(*args)
-    print(*kwargs)
-    print(
-        f"Printing all the arguments: Positional arguments: {args}\n Keyword arguments: {kwargs}"
-    )
+import os
+import sys
 
 
-test_function(
-    1,
-    2,
-    3,
-    "shit",
-    [1, 2, 3, 4, 5],
-    key=2,
-    open="I am open key word argument",
-    lister=[1, 2, 3, 1000000],
-)
+def poorly_formatted_function(x, y):
+    z = x + y
+    if z == 5:
+        print("The sum is 5")
+    else:
+        print("The sum is not 5")
+
+    unused_variable = 10
+
+    return z
+
+
+result = poorly_formatted_function(2, 3)
+print(f"The result is: {result}")
+
+# Unused import
+import datetime
