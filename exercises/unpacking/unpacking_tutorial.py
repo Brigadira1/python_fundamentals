@@ -25,7 +25,12 @@ top, [x, y, z] = [5, [1, 2, 3]]
 print(f"top, [x, y, z]: {top}, {x}, {y}, {z}")
 (f_key, f_val), *remainder = {"a": 1, "b": 2, "c": 3}.items()
 print(f"(f_key, f_val), *remainder: {f_key}, {f_val}, {remainder}")
+
 top, [first, *remainder, last], *end = [5, [1, 2, 3, 4, 6], 7, 8, 9]
-print(f"top, [first, *remainder, last], *end: {top}, {first}, {remainder}, {last}, {end}")
+print(
+    f"top, [first, *remainder, last], *end: {top}, {first}, {remainder}, {last}, {end}"
+)
+
 top, (x, (y1, y2, y3), last) = ("a", ("b", "cde", "f"))
 print(f"top, (x, (y1, y2, y3), last): {top}, {x}, {y1}, {y2}, {y3}, {last}")
+
