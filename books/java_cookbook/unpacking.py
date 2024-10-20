@@ -1,4 +1,4 @@
-data = ['ACME', 50, 91.1, (2012, 12, 21)]
+data = ["ACME", 50, 91.1, (2012, 12, 21)]
 name, share, price, date = data
 
 print(name)
@@ -20,7 +20,7 @@ print(year)
 print(mon)
 print(day)
 
-s = 'Hello'
+s = "Hello"
 a, b, c, d, e = s
 print(a)
 print(b)
@@ -37,3 +37,13 @@ for a, b, c in record:
 
 for tuple in record:
     print(tuple)
+
+
+def unpack(a, b, c, d, *rest):
+    return a, b, c, d, rest
+
+
+print(unpack(*[1, 2], 3, *range(4, 7)))
+# print(type(range(4, 7)))
+# print(*range(4, 7))
+
