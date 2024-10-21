@@ -19,6 +19,7 @@ class Server:
 
         while True:
             client_socket, client_address = self.server_socket.accept()
+            # print(type(client_socket))
             print(f"Connection acceppted from {client_address[0]}:{client_address[1]}")
             client_socket.send(
                 "Connection with the server successfully established\n".encode("utf-8")
@@ -47,11 +48,10 @@ class Server:
                         "utf-8"
                     )
                 )
-                self.clients.remove(index)
+                self.clients.remove(client_socket)
                 self.aliases.remove(index)
                 break
-            finally:
-                client_socket.close()
+        client_socket.close()
 
 
 if __name__ == "__main__":
