@@ -26,9 +26,9 @@ class Server:
             )
             client_socket.send("ALIAS:".encode("utf-8"))
             alias = client_socket.recv(1024).decode("utf-8")
-            self.broadcast(f"{alias} joined the conversation".encode("utf-8"))
             self.clients.append(client_socket)
             self.aliases.append(alias)
+            self.broadcast(f"{alias} joined the conversation".encode("utf-8"))
             t = threading.Thread(target=self.handle_client, args=(client_socket,))
             t.start()
 
@@ -41,7 +41,7 @@ class Server:
             try:
                 message = client_socket.recv(1024)
                 self.broadcast(message)
-            except Exception as e:
+            except:
                 index = self.clients.index(client_socket)
                 self.broadcast(
                     f"{self.aliases[index]} was removed from the conversaiton.".encode(
