@@ -34,6 +34,7 @@ class Client:
 
 if __name__ == "__main__":
     client = Client()
+
     receive_thread = threading.Thread(target=client.receive, args=())
     sending_thread = threading.Thread(target=client.send, args=())
 
