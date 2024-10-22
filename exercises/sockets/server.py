@@ -11,7 +11,6 @@ class Server:
         self.server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         self.server_socket.bind((self.server_address, self.server_port))
         self.clients = []
-        self.aliases = []
 
     def run_server(self) -> None:
         self.server_socket.listen()
@@ -19,37 +18,38 @@ class Server:
 
         while True:
             client_socket, client_address = self.server_socket.accept()
-            # print(type(client_socket))
             print(f"Connection acceppted from {client_address[0]}:{client_address[1]}")
             client_socket.send(
                 "Connection with the server successfully established\n".encode("utf-8")
             )
-            client_socket.send("ALIAS:".encode("utf-8"))
+            client_socket.send("ALIAS".encode("utf-8"))
             alias = client_socket.recv(1024).decode("utf-8")
+            print(f"{alias} has joined the chat room.")
             self.clients.append(client_socket)
-            self.aliases.append(alias)
             self.broadcast(f"{alias} joined the conversation".encode("utf-8"))
-            t = threading.Thread(target=self.handle_client, args=(client_socket,))
+            t = threading.Thread(target=self.handle_client, args=(client_socket, alias))
             t.start()
 
-    def broadcast(self, message):
+    def broadcast(self, message) -> None:
         for client_socket in self.clients:
             client_socket.send(message)
 
-    def handle_client(self, client_socket):
+    def handle_client(self, client_socket, alias: str) -> None:
         while True:
             try:
-                message = client_socket.recv(1024)
+                message: str = client_socket.recv(1024).decode("utf-8")
+                if message.lower() == "!quit":
+                    self.clients.remove(client_socket)
+                    print(f"{alias} left the chat room.")
+                    self.broadcast(f"{alias} left the chat room".encode("utf-8"))
+                    break
+                message = f"{alias}: {message}".encode("utf-8")
                 self.broadcast(message)
             except:
-                index = self.clients.index(client_socket)
-                self.broadcast(
-                    f"{self.aliases[index]} was removed from the conversaiton.".encode(
-                        "utf-8"
-                    )
-                )
                 self.clients.remove(client_socket)
-                self.aliases.remove(index)
+                self.broadcast(
+                    f"Connection with {alias} terminated unexpectedly".encode("utf-8")
+                )
                 break
         client_socket.close()
 
