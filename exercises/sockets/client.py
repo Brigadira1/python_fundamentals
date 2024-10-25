@@ -22,7 +22,6 @@ class Client:
                     self.client_socket.send(self.alias.encode("utf-8"))
                     event.set()
                 else:
-                    # event.set()
                     print(message)
             except Exception() as e:
                 print(f"Connection is dropped from server side: {e}")
