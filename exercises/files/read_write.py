@@ -9,8 +9,10 @@ def write_file():
         for name in names:
             file.write(name + "\n")
 
-        file.seek(0)
-        print(file.readlines())
+        # file.seek(0)
+        # print(file.readlines())
+        # file.seek(0)
+        # print(file.readline())
 
 
 def read_file():
@@ -23,13 +25,14 @@ def read_file():
 def read_file2():
     with open(names_file, "r") as file:
         for row in file:
-            print(row.rstrip())
+            yield row.rstrip()
 
 
 def main():
     write_file()
     # read_file()
-    read_file2()
+    for row in read_file2():
+        print(row)
 
 
 if __name__ == "__main__":
