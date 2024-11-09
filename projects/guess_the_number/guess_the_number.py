@@ -5,7 +5,9 @@ def play():
 
     n = ""
     while True:
-        n = input("Enter a number greater or equal to zero or press 'Q' to quit the game: ")
+        n = input(
+            "Enter a number greater or equal to zero or press 'Q' to quit the game: "
+        )
         if n.lower() == "q":
             exit()
 
@@ -33,15 +35,21 @@ def play():
             continue
 
         if num_to_guess == user_input:
-            print(f"Congratulations!!! You've guessed the number!!!! It was really {num_to_guess}")
+            print(
+                f"Congratulations!!! You've guessed the number!!!! It was really {num_to_guess}"
+            )
             break
 
         if num_to_guess < user_input:
-            print(f"The number that you've guessed {user_input} is higher than my number. Guess again!")
+            print(
+                f"The number that you've guessed {user_input} is higher than my number. Guess again!"
+            )
             continue
 
         if num_to_guess > user_input:
-            print(f"The number that you've guessed {user_input} is lower than my number. Guess again!")
+            print(
+                f"The number that you've guessed {user_input} is lower than my number. Guess again!"
+            )
             continue
 
 
@@ -68,13 +76,3 @@ def string_to_int(n):
 
 if __name__ == "__main__":
     play()
-
-
-
-
-
-
-
-
-
-
