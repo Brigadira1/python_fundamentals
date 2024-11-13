@@ -188,18 +188,59 @@
       <article id="contact">
         <h3>Contact Me</h3>
         <p>I would like to hear from you:</p>
-        <p>
-          <label for="firstName">First Name</label>
-          <input
-            type="text"
-            name="firstName"
-            id="firstName"
-            placeholder="Iavor"
-            autocomplete="on"
-            required
-            autofocus
-          />
-        </p>
+        <fieldset>
+          <legend>Personal Info</legend>
+          <p>
+            <label for="firstName">First Name:</label>
+            <input
+              type="text"
+              name="firstName"
+              id="firstName"
+              placeholder="Iavor"
+              autocomplete="on"
+              required
+              autofocus
+            />
+          </p>
+          <p>
+            <label for="lastName">Last Name:</label>
+            <input
+              type="text"
+              name="lastName"
+              id="lastName"
+              placeholder="Stoimenov"
+              autocomplete="on"
+              required
+            />
+          </p>
+          <p>
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password" />
+          </p>
+          <p>
+            <label for="telephone">Telephone:</label>
+            <input
+              type="tel"
+              name="telephone"
+              id="telephone"
+              placeholder="555-666-7777"
+              pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+              required
+            />
+          </p>
+          <p>
+            <label for="decade">Favorite Decade:</label>
+            <input
+              type="number"
+              name="decade"
+              id="decade"
+              min="1950"
+              max="2040"
+              step="10"
+              value="1950"
+            />
+          </p>
+        </fieldset>
       </article>
     </main>
     <hr />
