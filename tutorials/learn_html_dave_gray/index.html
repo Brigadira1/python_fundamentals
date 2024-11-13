@@ -132,7 +132,6 @@
       </article>
       <article id="vacation">
         <h2>I am also planning a Vacation</h2>
-
         <p>I've been working hard and <em>need a gateaway</em>.</p>
         <p>I live in <abbr title="Kansas">KS</abbr> so I want visit a beach.</p>
         <section>
@@ -191,14 +190,24 @@
         <p>I would like to hear from you:</p>
         <p>
           <label for="firstName">First Name</label>
-          <input type="text" name="firstName" id="firstName" >
+          <input
+            type="text"
+            name="firstName"
+            id="firstName"
+            placeholder="Iavor"
+            autocomplete="on"
+            required
+            autofocus
+          />
         </p>
-        
       </article>
     </main>
     <hr />
     <footer>
-      <p>&lt;&lt;&lt; &copy; Iavor Stoimenov &gt;&gt;&gt;</p>
+      <p>
+        &lt;&lt;&lt; &copy;
+        <a href="about.html">Iavor Stoimenov</a> &gt;&gt;&gt;
+      </p>
       <p><a href="#">Back to Top</a></p>
     </footer>
   </body>

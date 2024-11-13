@@ -14,4 +14,3 @@ dict_2 = {"c": 3, "d": 4}
 
 print(list(zip(a_list, b_list)))
 print(list(zip(dict_1, dict_2)))
-help(readlines)
