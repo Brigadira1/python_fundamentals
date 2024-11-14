@@ -188,59 +188,137 @@
       <article id="contact">
         <h3>Contact Me</h3>
         <p>I would like to hear from you:</p>
-        <fieldset>
-          <legend>Personal Info</legend>
-          <p>
-            <label for="firstName">First Name:</label>
-            <input
-              type="text"
-              name="firstName"
-              id="firstName"
-              placeholder="Iavor"
-              autocomplete="on"
-              required
-              autofocus
-            />
-          </p>
-          <p>
-            <label for="lastName">Last Name:</label>
-            <input
-              type="text"
-              name="lastName"
-              id="lastName"
-              placeholder="Stoimenov"
-              autocomplete="on"
-              required
-            />
-          </p>
-          <p>
-            <label for="password">Password:</label>
-            <input type="password" name="password" id="password" />
-          </p>
-          <p>
-            <label for="telephone">Telephone:</label>
-            <input
-              type="tel"
-              name="telephone"
-              id="telephone"
-              placeholder="555-666-7777"
-              pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
-              required
-            />
-          </p>
-          <p>
-            <label for="decade">Favorite Decade:</label>
-            <input
-              type="number"
-              name="decade"
-              id="decade"
-              min="1950"
-              max="2040"
-              step="10"
-              value="1950"
-            />
-          </p>
-        </fieldset>
+        <form action="https://httpbin.org/get" method="get">
+          <fieldset>
+            <legend>Personal Info</legend>
+            <p>
+              <label for="firstName">First Name:</label>
+              <input
+                type="text"
+                name="firstName"
+                id="firstName"
+                placeholder="Iavor"
+                autocomplete="on"
+                required
+                autofocus
+              />
+            </p>
+            <p>
+              <label for="lastName">Last Name:</label>
+              <input
+                type="text"
+                name="lastName"
+                id="lastName"
+                placeholder="Stoimenov"
+                autocomplete="on"
+                required
+              />
+            </p>
+            <p>
+              <label for="password">Password:</label>
+              <input type="password" name="password" id="password" />
+            </p>
+            <p>
+              <label for="telephone">Telephone:</label>
+              <input
+                type="tel"
+                name="telephone"
+                id="telephone"
+                placeholder="555-666-7777"
+                pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                required
+              />
+            </p>
+            <p>
+              <label for="decade">Favorite Decade:</label>
+              <input
+                type="number"
+                name="decade"
+                id="decade"
+                min="1950"
+                max="2040"
+                step="10"
+                value="1950"
+              />
+            </p>
+            <p>
+              <label for="coffee">Favorite Coffee:</label>
+              <select name="coffee" id="coffee" multiple size="5">
+                <optgroup label="Coffees">
+                  <option value="regular-coffee">Regular Coffee</option>
+                  <option value="iced-coffee">Iced Coffee</option>
+                </optgroup>
+                <optgroup label="Espresso Drinks">
+                  Espresso Drinks>
+                  <option value="latte">Latte</option>
+                  <option value="cappuccino">Cappuccino</option>
+                  <option value="cortrado">Cortrado</option>
+                  <option value="americano">Americano</option>
+                </optgroup>
+                <option value="other">Other</option>
+              </select>
+            </p>
+          </fieldset>
+          <br />
+          <fieldset>
+            <legend>What is your favorite food?</legend>
+            <p>
+              <input type="radio" name="food" value="tacos" id="tacos" />
+              <label for="tacos">Tacos</label>
+            </p>
+            <p>
+              <input type="radio" name="food" value="Pizza" id="pizza" />
+              <label for="pizza">Pizza</label>
+            </p>
+            <p>
+              <input type="radio" name="food" value="Other" id="other" />
+              <label for="other">Other</label>
+            </p>
+          </fieldset>
+          <br />
+          <fieldset>
+            <legend>Do you have pets?</legend>
+            <p>
+              <input type="checkbox" name="pets" value="dog" id="dog" />
+              <label for="dog">Dog</label>
+            </p>
+            <p>
+              <input type="checkbox" name="pets" value="cat" id="cat" />
+              <label for="cat">Cat</label>
+            </p>
+            <p>
+              <input type="checkbox" name="pets" value="fish" id="fish" />
+              <label for="fish">Fish</label>
+            </p>
+            <p>
+              <input type="checkbox" name="pets" value="other" id="other" />
+              <label for="other">Other</label>
+            </p>
+          </fieldset>
+          <br />
+          <fieldset>
+            <legend>Send Me A Note:</legend>
+            <p>
+              <label for="note">Your Message:</label>
+              <br />
+              <textarea
+                id="note"
+                placeholder="Type your message here"
+                rows="10"
+                cols="30"
+              ></textarea>
+            </p>
+          </fieldset>
+          <button type="submit">Submit</button>
+          <button
+            type="submit"
+            formaction="https://httpbin.org/post"
+            formmethod="post"
+          >
+            Post
+          </button>
+          <button type="reset">Reset</button>
+        </form>
       </article>
     </main>
     <hr />
