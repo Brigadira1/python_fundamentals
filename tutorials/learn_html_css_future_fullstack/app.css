@@ -1,5 +1,8 @@
 body {
   font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
 }
 /* prettier-ignore */
 h1, h2, h3, h4, h5 {
@@ -29,13 +32,6 @@ h4 {
 
 h5 {
   font-size: 24px;
-}
-
-/* prettier-ignore */
-p, a, .small-text {
-  font-weight: 400;
-  line-height: 1.5;
-  color: #495057;
 }
 
 p {
@@ -78,5 +74,22 @@ ul {
 
 /* prettier-ignore */
 .btn-secondary:hover, .btn-secondary.active {
+  color: #7048e8;
 
+}
+
+.hero-section {
+  text-align: center;
+}
+
+.cta-section {
+  text-align: center;
+}
+
+.footer {
+  text-align: center;
+}
+
+.features-main-heading {
+  text-align: center;
 }
