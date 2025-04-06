@@ -5,3 +5,6 @@ function greet(name) {
 }
 
 greet("World");
+
+let test = "Experiment"
+console.log("This is an " + test);
