@@ -3,6 +3,9 @@ import tkinter as tk
 root = tk.Tk()
 root.title("Iavor first GUI program")
 
+root.grid_columnconfigure(0, weight=1)
+root.grid_rowconfigure(0, weight=1)
+
 
 def add_to_list(_event=None):
     text = entry.get()
@@ -12,7 +15,7 @@ def add_to_list(_event=None):
 
 
 frame = tk.Frame(root)
-frame.grid(row=0, column=0)
+frame.grid(row=0, column=0, sticky="nsew")
 
 entry = tk.Entry(frame)
 entry.grid(row=0, column=0)
