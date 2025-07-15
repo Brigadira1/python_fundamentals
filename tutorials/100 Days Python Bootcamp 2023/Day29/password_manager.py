@@ -2,7 +2,7 @@ from pathlib import Path
 from tkinter import Button, Canvas, Label, PhotoImage, Tk
 
 root = Tk()
-root.wm_title("Iavor Passord Manage")
+root.wm_title("Iavor Passord Manager")
 root.configure(width=800, height=800, pady=20)
 
 canvas = Canvas(root, width=400, height=400)
