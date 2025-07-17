@@ -25,9 +25,11 @@ password = Label(frame, text="Password:")
 password.grid(row=3, column=0)
 
 website_entry = Entry(frame, width=35)
+website_entry.focus_force()
 website_entry.grid(row=1, column=1, columnspan=2, sticky="w")
 
 email_entry = Entry(frame, width=35)
+email_entry.insert(0, "iavor.stoimenov@gmail.com")
 email_entry.grid(row=2, column=1, columnspan=2, sticky="w")
 
 password_entry = Entry(frame, width=35)
