@@ -37,7 +37,7 @@ def add() -> None:
     if not check_entry_exists(website, path_to_psd):
         persist_new_row(new_row, path_to_psd)
     else:
-        update_entry(website, email, password, new_row, path_to_psd)
+        update_entry(website, new_row, path_to_psd)
 
 
 def create_psd_file(path_to_psd: Path) -> None:
@@ -67,9 +67,7 @@ def check_entry_exists(website: str, path_to_psd: Path) -> bool:
     return False
 
 
-def update_entry(
-    website: str, email: str, password: str, updated_row: str, path_to_psd: Path
-) -> None:
+def update_entry(website: str, updated_row: str, path_to_psd: Path) -> None:
     updated_file_contents: list[str] = []
     with path_to_psd.open(mode="r", encoding="utf-8") as pass_file:
         for line in pass_file:
@@ -77,9 +75,15 @@ def update_entry(
                 updated_file_contents.append(updated_row)
             else:
                 updated_file_contents.append(line)
-    temp_file = current_path / "temp_password_file.txt"
-    with open(temp_file, "w") as temp:
+    create_backup(path_to_psd)
+
+    with open(path_to_psd, "w") as temp:
         temp.writelines(updated_file_contents)
+
+
+def create_backup(path_to_psd: Path) -> None:
+    backup_file = path_to_psd.parent / (path_to_psd.name + ".bak")
+    backup_file.write_bytes(path_to_psd.read_bytes())
 
 
 my_pass_img = PhotoImage(file=path_to_pgn)
