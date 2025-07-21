@@ -1,6 +1,8 @@
-from os import pathconf
+import random
+import string
+import tkinter
 from pathlib import Path
-from tkinter import Button, Canvas, Entry, Frame, Label, PhotoImage, Tk
+from tkinter import Button, Canvas, Entry, Frame, Label, PhotoImage, Tk, messagebox
 
 current_path: Path = Path(__file__).resolve().parent
 path_to_pgn = current_path / "logo.png"
@@ -28,16 +30,29 @@ def add() -> None:
 
     create_psd_file(path_to_psd)
 
-    if not validate_user_input(website, email, password):
-        print("Website, email and/or password entries cannot be empty")
+    if not validate_user_input(website, password):
+        messagebox.showwarning(
+            title="Validation failed",
+            message="Email and/or password entries cannot be empty",
+        )
         return
 
-    new_row: str = website + delimeter + email + delimeter + password + "\n"
+    is_ok = messagebox.askokcancel(
+        title=website,
+        message=f"These are the details entered: \nEmail: {email} \nPassword: {password} \n Is it ok to save?",
+    )
 
-    if not check_entry_exists(website, path_to_psd):
-        persist_new_row(new_row, path_to_psd)
-    else:
-        update_entry(website, new_row, path_to_psd)
+    if is_ok:
+
+        new_row: str = website + delimeter + email + delimeter + password + "\n"
+
+        if not check_entry_exists(website, path_to_psd):
+            persist_new_row(new_row, path_to_psd)
+        else:
+            update_entry(website, new_row, path_to_psd)
+
+        website_entry.delete(0, tkinter.END)
+        password_entry.delete(0, tkinter.END)
 
 
 def create_psd_file(path_to_psd: Path) -> None:
@@ -45,8 +60,8 @@ def create_psd_file(path_to_psd: Path) -> None:
         path_to_psd.touch()
 
 
-def validate_user_input(website: str, email: str, password: str) -> bool:
-    if website and email and password:
+def validate_user_input(website: str, password: str) -> bool:
+    if website and password:
         return True
     else:
         return False
@@ -86,6 +101,23 @@ def create_backup(path_to_psd: Path) -> None:
     backup_file.write_bytes(path_to_psd.read_bytes())
 
 
+def generate_passwd():
+
+    rand_password = ""
+
+    for _ in range(5):
+
+        rand_letter = random.choice(list(string.ascii_letters))
+        rand_number = random.choice(list(string.digits))
+        rand_symbol = random.choice(list(string.punctuation))
+
+        rand_password += rand_letter + rand_number + rand_symbol
+
+    rand_password_list = list(rand_password)
+    random.shuffle(rand_password_list)
+    password_entry.insert(0, "".join(rand_password_list))
+
+
 my_pass_img = PhotoImage(file=path_to_pgn)
 canvas.create_image(100, 100, image=my_pass_img)
 canvas.grid(row=0, column=1)
@@ -110,7 +142,9 @@ email_entry.grid(row=2, column=1, columnspan=2, sticky="w")
 password_entry = Entry(frame, width=35)
 password_entry.grid(row=3, column=1, sticky="w")
 
-generate_password = Button(frame, text="Generate Password", width=15)
+generate_password = Button(
+    frame, text="Generate Password", width=15, command=generate_passwd
+)
 generate_password.grid(row=3, column=1, sticky="e")
 
 
