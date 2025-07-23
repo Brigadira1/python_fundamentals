@@ -1,8 +1,9 @@
-def A(num):
-    if num > 0:
-        # print(num)
-        A(num - 1)
-        print(num)
+def factorial(n: int):
+    if n == 0:
+        return 1
+    else:
+        print(f"In this iteration n is equal to {n}")
+        return n * factorial(n - 1)
 
-num = 3
-A(num)
+
+print(factorial(10))

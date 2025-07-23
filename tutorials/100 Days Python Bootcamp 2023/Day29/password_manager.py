@@ -1,14 +1,16 @@
+import json
 import random
 import string
 import tkinter
 from pathlib import Path
 from tkinter import Button, Canvas, Entry, Frame, Label, PhotoImage, Tk, messagebox
 
+import pyperclip
+
 current_path: Path = Path(__file__).resolve().parent
 path_to_pgn = current_path / "logo.png"
-path_to_psd = current_path / "passwords.txt"
-
-pass_cache: dict[str, list[str]] = {}
+# path_to_psd = current_path / "passwords.txt"
+path_to_psd = current_path / "data.json"
 
 root = Tk()
 root.wm_title("Iavor Password Manager")
@@ -21,14 +23,45 @@ frame.grid(row=0, column=0)
 canvas = Canvas(frame, width=200, height=200)
 
 
-def add() -> None:
+# def add() -> None:
+#
+#     website: str = website_entry.get()
+#     email: str = email_entry.get()
+#     password: str = password_entry.get()
+#     delimeter: str = " | "
+#
+#     create_psd_file(path_to_psd)
+#
+#     if not validate_user_input(website, password):
+#         messagebox.showwarning(
+#             title="Validation failed",
+#             message="Email and/or password entries cannot be empty",
+#         )
+#         return
+#
+#     is_ok = messagebox.askokcancel(
+#         title=website,
+#         message=f"These are the details entered: \nEmail: {email} \nPassword: {password} \n Is it ok to save?",
+#     )
+#
+#     if is_ok:
+#
+#         new_row: str = website + delimeter + email + delimeter + password + "\n"
+#
+#         if not check_entry_exists(website, path_to_psd):
+#             persist_new_row(new_row, path_to_psd)
+#         else:
+#             update_entry(website, new_row, path_to_psd)
+#
+#         website_entry.delete(0, tkinter.END)
+#         password_entry.delete(0, tkinter.END)
+
+
+def add():
 
     website: str = website_entry.get()
     email: str = email_entry.get()
     password: str = password_entry.get()
-    delimeter: str = " | "
-
-    create_psd_file(path_to_psd)
 
     if not validate_user_input(website, password):
         messagebox.showwarning(
@@ -37,22 +70,26 @@ def add() -> None:
         )
         return
 
-    is_ok = messagebox.askokcancel(
-        title=website,
-        message=f"These are the details entered: \nEmail: {email} \nPassword: {password} \n Is it ok to save?",
-    )
+    new_data = {website: {email: password}}
 
-    if is_ok:
+    try:
 
-        new_row: str = website + delimeter + email + delimeter + password + "\n"
+        with path_to_psd.open("r") as data_file:
+            current_data = json.load(data_file)
 
-        if not check_entry_exists(website, path_to_psd):
-            persist_new_row(new_row, path_to_psd)
-        else:
-            update_entry(website, new_row, path_to_psd)
+    except FileNotFoundError:
 
-        website_entry.delete(0, tkinter.END)
-        password_entry.delete(0, tkinter.END)
+        with path_to_psd.open("w") as data_file:
+            json.dump(new_data, data_file, indent=4)
+
+    else:
+        current_data.update(new_data)
+
+        with path_to_psd.open("w") as data_file:
+            json.dump(current_data, data_file, indent=4)
+
+    website_entry.delete(0, tkinter.END)
+    password_entry.delete(0, tkinter.END)
 
 
 def create_psd_file(path_to_psd: Path) -> None:
@@ -115,7 +152,13 @@ def generate_passwd():
 
     rand_password_list = list(rand_password)
     random.shuffle(rand_password_list)
-    password_entry.insert(0, "".join(rand_password_list))
+    rand_password = "".join(rand_password_list)
+    password_entry.insert(0, rand_password)
+    pyperclip.copy(rand_password)
+
+
+def search():
+    pass
 
 
 my_pass_img = PhotoImage(file=path_to_pgn)
@@ -131,9 +174,12 @@ email_username.grid(row=2, column=0)
 password = Label(frame, text="Password:")
 password.grid(row=3, column=0)
 
-website_entry = Entry(frame, width=35)
+website_entry = Entry(frame, width=25)
 website_entry.focus_force()
-website_entry.grid(row=1, column=1, columnspan=2, sticky="w")
+website_entry.grid(row=1, column=1, sticky="w")
+
+search_button = Button(frame, text="Search", width=15, command=search)
+search_button.grid(row=1, column=1, sticky="e")
 
 email_entry = Entry(frame, width=35)
 email_entry.insert(0, "iavor.stoimenov@gmail.com")
