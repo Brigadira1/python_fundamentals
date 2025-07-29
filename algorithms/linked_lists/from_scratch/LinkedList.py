@@ -1,4 +1,6 @@
-from Node import Node
+from .Node import Node
+
+# from algorithms.linked_lists.Node import Node
 
 
 class LinkedList:
@@ -149,30 +151,31 @@ class LinkedList:
         return -1
 
 
-linked_list = LinkedList()
+if __name__ == "__main__":
+    linked_list = LinkedList()
 
-linked_list.add_in_the_beginning(108)
-linked_list.add_at_the_end(1)
-linked_list.add_at_the_end(2)
-linked_list.add_at_the_end(3)
-linked_list.add_at_the_end(4)
-linked_list.add_at_the_end(5)
-linked_list.add_at_the_end(6)
-linked_list.add_at_the_end(7)
-linked_list.add_at_the_end(98)
+    linked_list.add_in_the_beginning(108)
+    linked_list.add_at_the_end(1)
+    linked_list.add_at_the_end(2)
+    linked_list.add_at_the_end(3)
+    linked_list.add_at_the_end(4)
+    linked_list.add_at_the_end(5)
+    linked_list.add_at_the_end(6)
+    linked_list.add_at_the_end(7)
+    linked_list.add_at_the_end(98)
 
-print(linked_list.delete_by_index(0))
-linked_list.delete_by_data(3)
-linked_list.delete_by_data(98)
-linked_list.delete_by_data(1)
-linked_list.delete_by_data(2)
+    print(linked_list.delete_by_index(0))
+    linked_list.delete_by_data(3)
+    linked_list.delete_by_data(98)
+    linked_list.delete_by_data(1)
+    linked_list.delete_by_data(2)
 
-linked_list.delete_by_data(4)
-linked_list.delete_by_data(5)
-linked_list.delete_by_data(6)
-linked_list.delete_by_data(7)
-linked_list.delete_by_data(3)
-print(linked_list.print_all_elements())
+    linked_list.delete_by_data(4)
+    linked_list.delete_by_data(5)
+    linked_list.delete_by_data(6)
+    linked_list.delete_by_data(7)
+    linked_list.delete_by_data(3)
+    print(linked_list.print_all_elements())
 
-# print(linked_list.length())
-# print(linked_list.search_by_data(7))
+    # print(linked_list.length())
+    # print(linked_list.search_by_data(7))
