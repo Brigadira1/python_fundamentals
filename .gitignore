@@ -3,3 +3,4 @@ algorithms/binary_trees/*
 __pycache__/
 Jupyter Notebooks/*.csv
 jupyter_notebooks/*.csv
+jupyter_notebooks/.ipynb_ckeckpoints/
