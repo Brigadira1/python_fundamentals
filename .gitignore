@@ -2,3 +2,4 @@ venv/
 algorithms/binary_trees/*
 __pycache__/
 Jupyter Notebooks/*.csv
+jupyter_notebooks/*.csv
