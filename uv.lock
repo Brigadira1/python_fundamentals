@@ -956,6 +956,7 @@ dependencies = [
     { name = "jupyterlab" },
     { name = "pandas" },
     { name = "pyperclip" },
+    { name = "requests" },
 ]
 
 [package.metadata]
@@ -963,6 +964,7 @@ requires-dist = [
     { name = "jupyterlab", specifier = ">=4.4.4" },
     { name = "pandas", specifier = ">=2.3.0" },
     { name = "pyperclip", specifier = ">=1.9.0" },
+    { name = "requests", specifier = ">=2.32.4" },
 ]
 
 [[package]]
