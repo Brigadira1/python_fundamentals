@@ -1,5 +1,24 @@
-int_list = ["1", "2", "3", "4", "5", "6"]
-string = " --> ".join(int_list)
-print(string)
+from asyncio import Future
 
-print(str(1.45))
+
+def _make_ssl_transport(
+    rawsock,
+    protocol,
+    sslcontext,
+    waiter=None,
+    *,
+    server_side=False,
+    server_hostname=None,
+    extra=None,
+    server=None,
+    ssl_handshake_timeout=None,
+    call_connection_made=True,
+):
+    """Make an SSL transport."""
+    if waiter is None:
+        waiter = Future(loop=loop)
+
+    if extra is None:
+        extra = {}
+
+    ...
