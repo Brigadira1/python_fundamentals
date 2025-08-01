@@ -1,11 +1,17 @@
 import requests
-import json
-from pathlib import Path
 
-current_dir = Path(__file__).resolve().parent
-print(current_dir)
-json_file = current_dir / "test_json.json"
+MY_LAT = 42.6605234
+MY_LON = 23.2888404
+API_KEY = "659171337177595d96e17fdf29493918"
 
-request = requests.get("https://jsonplaceholder.typicode.com/posts/1")
-with json_file.open("w") as fp:
-    json.dump(request.json(), fp)
+params = {
+    "lat": MY_LAT,
+    "lon": MY_LON,
+    "appid": API_KEY,
+}
+
+data = requests.get("https://api.openweathermap.org/data/3.0/onecall", params=params)
+data.raise_for_status()
+
+response = data.json()
+
